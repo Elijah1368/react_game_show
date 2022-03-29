@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react_game_show/static/css/main.72527b06.css",
+    "main.js": "/react_game_show/static/js/main.fa58f696.js",
+    "static/js/845.5a6c6d6b.chunk.js": "/react_game_show/static/js/845.5a6c6d6b.chunk.js",
+    "static/media/background.jpg": "/react_game_show/static/media/background.f1c28fc73a6cc1bc780a.jpg",
+    "index.html": "/react_game_show/index.html",
+    "main.72527b06.css.map": "/react_game_show/static/css/main.72527b06.css.map",
+    "main.fa58f696.js.map": "/react_game_show/static/js/main.fa58f696.js.map",
+    "845.5a6c6d6b.chunk.js.map": "/react_game_show/static/js/845.5a6c6d6b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72527b06.css",
+    "static/js/main.fa58f696.js"
+  ]
+}
