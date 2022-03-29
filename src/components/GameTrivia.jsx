@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import useSound from "use-sound";
-
+import start from "../sounds/play.mp3";
+import correct from "../sounds/correct.mp3";
+import wrong from "../sounds/wrong.mp3";
 
 export default function GameTrivia({
   data,
@@ -11,9 +13,9 @@ export default function GameTrivia({
   const [question, setQuestion] = useState(null);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [className, setClassName] = useState("answer");
-  const [letsPlay] = useSound("assets/sounds/play.mp3");
-  const [correctAnswer] = useSound("assets/sounds/correct.mp3");
-  const [wrongAnswer] = useSound("assets/sounds/wrong.mp3");
+  const [letsPlay] = useSound(start);
+  const [correctAnswer] = useSound(correct);
+  const [wrongAnswer] = useSound(wrong);
 
   useEffect(() => {
     letsPlay();
